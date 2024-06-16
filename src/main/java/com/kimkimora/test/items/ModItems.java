@@ -10,11 +10,12 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
 
     public static final Item CITY_LIGHTS_MUSIC_DISC = registerItem("city_lights_music_disc",
-            new MusicDiscItem(7, ModSounds.CITY_LIGHTS, new Item.Settings().maxCount(1),  198));
+            new MusicDiscItem(7, ModSounds.CITY_LIGHTS, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  237));
 
     public static void registerItems(){
         Test.LOGGER.info("Registring items for " + Test.MOD_ID);
