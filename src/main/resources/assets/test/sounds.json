@@ -1,1 +1,10 @@
- 
+{
+    "city_lights": {
+        "sounds": [
+            {
+                "name": "test:city_lights",
+                "stream": true
+            }
+        ]
+    }
+}
