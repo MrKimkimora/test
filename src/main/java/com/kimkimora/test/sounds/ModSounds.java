@@ -11,6 +11,7 @@ public class ModSounds {
     public static final SoundEvent BATTLE_OF_BERKLEY = registerSoundEvent("battle_of_berkley");
     public static final SoundEvent RESONANCE = registerSoundEvent("resonance");
     public static final SoundEvent SPACE_BATTLE = registerSoundEvent("space_battle");
+    public static final SoundEvent END_OF_THE_MILLENNIUM = registerSoundEvent("end_of_the_millennium");
 
 
 

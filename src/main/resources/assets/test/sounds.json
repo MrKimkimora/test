@@ -30,5 +30,13 @@
                 "stream": true
             }
         ]
+    },
+    "end_of_the_millennium": {
+        "sounds": [
+            {
+                "name": "test:end_of_the_millennium",
+                "stream": true
+            }
+        ]
     }
 }

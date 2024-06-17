@@ -22,7 +22,8 @@ public class ModItems {
             new MusicDiscItem(7, ModSounds.RESONANCE, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  212));
     public static final Item SPACE_BATTLE_MUSIC_DISC = registerItem("space_battle_music_disc",
             new MusicDiscItem(7, ModSounds.SPACE_BATTLE, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  321));
-
+    public static final Item END_OF_THE_MILLENNIUM_MUSIC_DISC = registerItem("end_of_the_millennium_music_disc",
+            new MusicDiscItem(7, ModSounds.END_OF_THE_MILLENNIUM, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  330));
 
 
     public static void registerItems(){
@@ -41,6 +42,9 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
             content.add(SPACE_BATTLE_MUSIC_DISC);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
+            content.add(END_OF_THE_MILLENNIUM_MUSIC_DISC);
         });
     }
 
