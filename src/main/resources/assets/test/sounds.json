@@ -14,5 +14,21 @@
                 "stream": true
             }
         ]
+    },
+    "resonance": {
+        "sounds": [
+            {
+                "name": "test:resonance",
+                "stream": true
+            }
+        ]
+    },
+    "space_battle": {
+        "sounds": [
+            {
+                "name": "test:space_battle",
+                "stream": true
+            }
+        ]
     }
 }

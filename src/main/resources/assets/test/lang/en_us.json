@@ -3,6 +3,12 @@
   "item.test.city_lights_music_disc.desc": "TrialCore - City Lights",
 
   "item.test.battle_of_berkley_music_disc": "Music Disc",
-  "item.test.battle_of_berkley_music_disc.desc": "Xurious - Battle Of Berkley"
+  "item.test.battle_of_berkley_music_disc.desc": "Xurious - Battle Of Berkley",
+
+  "item.test.resonance_music_disc": "Music Disc",
+  "item.test.resonance_music_disc.desc": "HOME - Resonance",
+
+  "item.test.space_battle_music_disc": "Music Disc",
+  "item.test.space_battle_music_disc.desc": "F777 - Space Battle"
 
 }

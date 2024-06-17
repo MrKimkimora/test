@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 public class ModSounds {
     public static final SoundEvent CITY_LIGHTS = registerSoundEvent("city_lights");
     public static final SoundEvent BATTLE_OF_BERKLEY = registerSoundEvent("battle_of_berkley");
+    public static final SoundEvent RESONANCE = registerSoundEvent("resonance");
+    public static final SoundEvent SPACE_BATTLE = registerSoundEvent("space_battle");
 
 
 

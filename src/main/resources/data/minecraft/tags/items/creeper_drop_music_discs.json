@@ -2,7 +2,9 @@
   "replace": false,
   "values": [
     "test:city_lights_music_disc",
-    "test:battle_of_berkley_music_disc"
+    "test:battle_of_berkley_music_disc",
+    "test:resonance_music_disc",
+    "test:space_battle_music_disc"
 
   ]
 }

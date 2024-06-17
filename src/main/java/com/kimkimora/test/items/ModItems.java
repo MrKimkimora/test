@@ -18,6 +18,10 @@ public class ModItems {
             new MusicDiscItem(7, ModSounds.CITY_LIGHTS, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  198));
     public static final Item BATTLE_OF_BERKLEY_MUSIC_DISC = registerItem("battle_of_berkley_music_disc",
             new MusicDiscItem(7, ModSounds.BATTLE_OF_BERKLEY, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  268));
+    public static final Item RESONANCE_MUSIC_DISC = registerItem("resonance_music_disc",
+            new MusicDiscItem(7, ModSounds.RESONANCE, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  212));
+    public static final Item SPACE_BATTLE_MUSIC_DISC = registerItem("space_battle_music_disc",
+            new MusicDiscItem(7, ModSounds.SPACE_BATTLE, new Item.Settings().rarity(Rarity.RARE).maxCount(1),  321));
 
 
 
@@ -31,6 +35,12 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
             content.add(BATTLE_OF_BERKLEY_MUSIC_DISC);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
+            content.add(RESONANCE_MUSIC_DISC);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
+            content.add(SPACE_BATTLE_MUSIC_DISC);
         });
     }
 
