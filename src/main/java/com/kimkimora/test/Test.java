@@ -27,6 +27,7 @@ public class Test implements ModInitializer {
         ModItems.registerItems();
         ModSounds.registerSounds();
 
+
         LOGGER.info("AMOGUS");
 
     }
