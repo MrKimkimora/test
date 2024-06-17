@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "test:city_lights_music_disc"
+    "test:city_lights_music_disc",
+    "test:battle_of_berkley_music_disc"
 
   ]
 }
