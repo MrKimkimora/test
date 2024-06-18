@@ -1,4 +1,4 @@
-package com.kimkimora.test.client;
+package com.kimkimora.test;
 
 import net.fabricmc.api.ClientModInitializer;
 

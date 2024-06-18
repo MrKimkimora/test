@@ -3,21 +3,23 @@
   "id": "test",
   "version": "${version}",
   "name": "test",
-  "description": "",
-  "authors": [],
+  "description": "Nothing here",
+  "authors": [
+    "MrKimkimora"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/test/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.kimkimora.test.client.TestClient"
+      "com.kimkimora.test.TestClient"
     ],
     "main": [
       "com.kimkimora.test.Test"
     ],
     "fabric-datagen": [
-      "com.kimkimora.test.TestDataGeneration"
+      "com.kimkimora.test.TestDataGenerator"
     ]
   },
   "mixins": [
