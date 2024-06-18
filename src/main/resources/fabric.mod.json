@@ -15,6 +15,9 @@
     ],
     "main": [
       "com.kimkimora.test.Test"
+    ],
+    "fabric-datagen": [
+      "com.kimkimora.test.TestDataGeneration"
     ]
   },
   "mixins": [
