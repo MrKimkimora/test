@@ -1,6 +1,7 @@
-package com.kimkimora.item;
+package com.kimkimora.test.item;
 
 import com.kimkimora.test.Test;
+import com.kimkimora.test.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,8 +18,12 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TIN_INGOT)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.TOPAZ);
+                        entries.add(ModBlocks.TOPAZ_BLOCK);
+
                         entries.add(ModItems.RAW_TIN);
+                        entries.add(ModBlocks.RAW_TIN_BLOCK);
                         entries.add(ModItems.TIN_INGOT);
+                        entries.add(ModBlocks.TIN_BLOCK);
 
                     }).build());
 
