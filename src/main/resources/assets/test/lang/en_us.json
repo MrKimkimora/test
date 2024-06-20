@@ -1,3 +1,8 @@
 {
-  "item.test.topaz": "Topaz"
+  "item.test.topaz": "Topaz",
+
+  "item.test.tin_ingot": "Tin Ingot",
+  "item.test.raw_tin": "Raw Tin",
+
+  "itemgroup.test_mod": "Test Mod"
 }
