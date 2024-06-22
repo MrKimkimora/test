@@ -4,12 +4,14 @@ import com.kimkimora.test.Test;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -19,6 +21,15 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
     public static final Block TOPAZ_BLOCK = registerBlock("topaz_block",
             new Block(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
+    public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_COPPER_ORE)));
+    public static final Block TOPAZ_ORE = registerBlock("topaz_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.STONE).strength(2f)));
+    public static final Block DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f)));
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "test:topaz_block",
+    "test:topaz_ore",
+    "test:deepslate_topaz_ore"
+  ]
+}

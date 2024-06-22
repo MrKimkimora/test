@@ -1,11 +1,16 @@
 {
   "item.test.topaz": "Topaz",
   "block.test.topaz_block": "Block of Topaz",
+  "block.test.topaz_ore": "Topaz Ore",
+  "block.test.deepslate_topaz_ore": "Deepslate Topaz Ore",
 
   "item.test.tin_ingot": "Tin Ingot",
   "block.test.tin_block": "Block of Tin",
   "item.test.raw_tin": "Raw Tin",
   "block.test.raw_tin_block": "Block of Raw Tin",
+  "block.test.tin_ore": "Tin Ore",
+  "block.test.deepslate_tin_ore": "Deepslate Tin Ore",
+
 
 
   "itemgroup.test_mod": "Test Mod"

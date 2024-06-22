@@ -17,9 +17,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.test_mod"))
                     .icon(() -> new ItemStack(ModItems.TIN_INGOT)).entries((displayContext, entries) -> {
 
+                        entries.add(ModBlocks.TOPAZ_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
                         entries.add(ModItems.TOPAZ);
                         entries.add(ModBlocks.TOPAZ_BLOCK);
 
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModBlocks.RAW_TIN_BLOCK);
                         entries.add(ModItems.TIN_INGOT);

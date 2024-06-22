@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "test:tin_block",
+    "test:raw_tin_block",
+    "test:tin_ore",
+    "test:deepslate_tin_ore"
+  ]
+}
