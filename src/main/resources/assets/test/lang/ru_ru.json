@@ -1,0 +1,17 @@
+{
+  "item.test.topaz": "Топаз",
+  "block.test.topaz_block": "Топазовый блок",
+  "block.test.topaz_ore": "Топазовая руда",
+  "block.test.deepslate_topaz_ore": "Топазоносный глубинный сланец",
+
+  "item.test.tin_ingot": "Оловянный слиток",
+  "block.test.tin_block": "Блок олова",
+  "item.test.raw_tin": "Сырое олово",
+  "block.test.raw_tin_block": "Блок сырого олова",
+  "block.test.tin_ore": "Оловянная руда",
+  "block.test.deepslate_tin_ore": "Оловоносный глубинный сланец",
+
+
+
+  "itemgroup.test_mod": "Test Mod"
+}

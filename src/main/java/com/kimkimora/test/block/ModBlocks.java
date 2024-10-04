@@ -15,6 +15,9 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
+    /*
+      Создаём модовые блоки
+     */
     public static final Block TIN_BLOCK = registerBlock("tin_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block",
@@ -32,16 +35,25 @@ public class ModBlocks {
 
 
     private static Block registerBlock(String name, Block block){
+        /*
+          Отдельный метод для регистрации блока
+         */
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Test.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block){
+        /*
+          Отдельный метод для регистрации блока как предмета
+         */
         return Registry.register(Registries.ITEM, new Identifier(Test.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 
     public static void register(){
+        /*
+          Метод, вызываемый из главного класса. Инициализирует этот класс и сохраняет лог в общий хэндлер.
+         */
         Test.LOGGER.info("Registering blocks for " + Test.MOD_ID);
 
     }

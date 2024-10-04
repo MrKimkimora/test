@@ -12,6 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
+    /*
+    Отдельная креативная вкладка под мод. Здесь же добавляются предметы.
+     */
+
     public static final ItemGroup TEST_MOD_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Test.MOD_ID, "test_mod"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.test_mod"))
@@ -32,6 +36,9 @@ public class ModItemGroups {
                     }).build());
 
     public static void register(){
+        /*
+          Метод, вызываемый из главного класса. Инициализирует этот класс и сохраняет лог в общий хэндлер.
+         */
         Test.LOGGER.info("Registering item groups for " + Test.MOD_ID);
 
 
