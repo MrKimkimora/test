@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "test:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:copper_ingot"
+  }
+}

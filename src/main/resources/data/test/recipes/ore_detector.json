@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:water_bucket"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    " BA",
+    "CDD",
+    " DD"
+  ],
+  "result": {
+    "item": "test:ore_detector"
+  }
+}

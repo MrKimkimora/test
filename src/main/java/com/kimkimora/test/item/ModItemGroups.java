@@ -19,7 +19,9 @@ public class ModItemGroups {
     public static final ItemGroup TEST_MOD_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Test.MOD_ID, "test_mod"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.test_mod"))
-                    .icon(() -> new ItemStack(ModItems.TIN_INGOT)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.TOPAZ)).entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.COPPER_NUGGET);
 
                         entries.add(ModBlocks.TOPAZ_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
@@ -30,8 +32,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                         entries.add(ModItems.RAW_TIN);
                         entries.add(ModBlocks.RAW_TIN_BLOCK);
+                        entries.add(ModItems.TIN_NUGGET);
                         entries.add(ModItems.TIN_INGOT);
                         entries.add(ModBlocks.TIN_BLOCK);
+
+                        entries.add(ModItems.ORE_DETECTOR);
 
                     }).build());
 
