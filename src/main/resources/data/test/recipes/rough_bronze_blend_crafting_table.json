@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "test:copper_nugget"
+    },
+    {
+      "item": "test:copper_nugget"
+    },
+    {
+      "item": "test:copper_nugget"
+    },
+    {
+      "item": "test:copper_nugget"
+    },
+    {
+      "item": "test:copper_nugget"
+    },
+    {
+      "item": "test:copper_nugget"
+    },
+    {
+      "item": "test:copper_nugget"
+    },
+
+    {
+      "item": "test:tin_nugget"
+    },
+    {
+      "item": "test:tin_nugget"
+    }
+  ],
+  "result": {
+    "item": "test:rough_bronze_blend"
+  }
+}

@@ -1,6 +1,9 @@
 {
   "item.test.copper_nugget": "Copper Nugget",
 
+  "item.test.bronze_nugget": "Bronze Nugget",
+  "item.test.bronze_ingot": "Bronze Ingot",
+
   "item.test.topaz": "Topaz",
   "block.test.topaz_block": "Block of Topaz",
   "block.test.topaz_ore": "Topaz Ore",
@@ -14,19 +17,11 @@
   "block.test.tin_ore": "Tin Ore",
   "block.test.deepslate_tin_ore": "Deepslate Tin Ore",
 
+  "item.test.rough_bronze_blend": "Rough Bronze Blend",
   "item.test.ore_detector": "Ore Detector",
 
   "message.ore_detector.not_found": "Nothing here.",
-  "message.ore_detector.found.block.test.topaz_ore": "Found Topaz Ore!",
-  "message.ore_detector.found.block.test.tin_ore": "Found Tin Ore!",
-  "message.ore_detector.found.block.minecraft.copper_ore": "Found Copper Ore!",
-  "message.ore_detector.found.block.minecraft.iron_ore": "Found Iron Ore!",
-  "message.ore_detector.found.block.minecraft.gold_ore": "Found Gold Ore!",
-  "message.ore_detector.found.block.minecraft.diamond_ore": "Found Diamond Ore!",
-  "message.ore_detector.found.block.minecraft.lapis_ore": "Found Lapis Ore!",
-  "message.ore_detector.found.block.minecraft.redstone_ore": "Found Redstone Ore!",
-  "message.ore_detector.found.block.minecraft.coal_ore": "Found Coal Ore!",
-  "message.ore_detector.found.block.minecraft.emerald_ore": "Found Emerald Ore!",
+  "message.ore_detector.found": " right below!",
 
 
   "itemgroup.test_mod": "Test Mod"

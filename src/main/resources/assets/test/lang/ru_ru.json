@@ -1,6 +1,9 @@
 {
   "item.test.copper_nugget": "Медный самородок",
 
+  "item.test.bronze_nugget": "Бронзовый самородок",
+  "item.test.bronze_ingot": "Бронзовый слиток",
+
   "item.test.topaz": "Топаз",
   "block.test.topaz_block": "Топазовый блок",
   "block.test.topaz_ore": "Топазовая руда",
@@ -14,19 +17,11 @@
   "block.test.tin_ore": "Оловянная руда",
   "block.test.deepslate_tin_ore": "Оловоносный глубинный сланец",
 
+  "item.test.rough_bronze_blend": "Грубая бронзовая смесь",
   "item.test.ore_detector": "Инструмент поиска руды",
 
   "message.ore_detector.not_found": "Похоже, здесь ничего нет.",
-  "message.ore_detector.found.block.test.topaz_ore": "Найдены топазы!",
-  "message.ore_detector.found.block.test.tin_ore": "Найдено олово!",
-  "message.ore_detector.found.block.minecraft.copper_ore": "Найдена медь!",
-  "message.ore_detector.found.block.minecraft.iron_ore": "Найдено железо!",
-  "message.ore_detector.found.block.minecraft.gold_ore": "Найдено золото!",
-  "message.ore_detector.found.block.minecraft.diamond_ore": "Найдены алмазы!",
-  "message.ore_detector.found.block.minecraft.lapis_ore": "Найден лазурит!",
-  "message.ore_detector.found.block.minecraft.redstone_ore": "Найден редстоун!",
-  "message.ore_detector.found.block.minecraft.coal_ore": "Найден уголь!",
-  "message.ore_detector.found.block.minecraft.emerald_ore": "Найден изумруд!",
+  "message.ore_detector.found": " прямо снизу!",
 
   "itemgroup.test_mod": "Test Mod"
 }

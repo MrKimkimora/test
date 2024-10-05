@@ -24,7 +24,7 @@ public class OreDetector extends Item {
 
          */
 
-        if(!context.getWorld().isClient()) {    // Строчка, которую я не могу понять
+        if(!context.getWorld().isClient() && context.getPlayer() != null) {    // Строчка, которую я не могу понять
             BlockPos clickPos = context.getBlockPos();
             PlayerEntity player = context.getPlayer();
             boolean foundBlock = false;
@@ -43,14 +43,16 @@ public class OreDetector extends Item {
                 player.sendMessage(Text.translatable("message.ore_detector.not_found"), false);
             }
         }
-        context.getStack().damage(1, context.getPlayer(),
-                playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
-
+        if(context.getPlayer() != null) {
+            context.getStack().damage(1, context.getPlayer(),
+                    playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand()));
+        }
         return ActionResult.SUCCESS;
     }
 
     private void outputValuable(BlockPos blockPos, PlayerEntity player, Block block) { //Руслан, подскажи, как оптимизировать чтобы не срать в lang.
-        player.sendMessage(Text.translatable("message.ore_detector.found." + block.asItem().getTranslationKey()), false);
+        player.sendMessage(Text.translatable(block.asItem().getTranslationKey())
+                .append(Text.translatable("message.ore_detector.found")), false);
     }
 
     private boolean isValuableBlock(BlockState state){  // Говнокод п*здец, Руслан, помоги.

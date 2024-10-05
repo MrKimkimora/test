@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "test:tin_nugget"
+      "item": "test:bronze_nugget"
     }
   },
   "result": {
-    "item": "test:tin_ingot"
+    "item": "test:bronze_ingot"
   }
 }

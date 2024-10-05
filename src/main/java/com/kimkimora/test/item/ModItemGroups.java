@@ -23,6 +23,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COPPER_NUGGET);
 
+                        entries.add(ModItems.BRONZE_NUGGET);
+                        entries.add(ModItems.BRONZE_INGOT);
+
                         entries.add(ModBlocks.TOPAZ_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
                         entries.add(ModItems.TOPAZ);
@@ -36,6 +39,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TIN_INGOT);
                         entries.add(ModBlocks.TIN_BLOCK);
 
+                        entries.add(ModItems.ROUGH_BRONZE_BLEND);
                         entries.add(ModItems.ORE_DETECTOR);
 
                     }).build());
