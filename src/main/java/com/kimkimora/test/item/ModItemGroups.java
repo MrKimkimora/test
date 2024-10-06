@@ -22,6 +22,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.TOPAZ)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.CUCUMBER);
+                        entries.add(ModItems.FRACTAL_CUCUMBER);
                         entries.add(ModItems.BRONZE_CUCUMBER);
 
                         entries.add(ModItems.COPPER_NUGGET);

@@ -13,6 +13,7 @@ public class ModItems {
     Создаём модовые предметы
      */
     public static final Item CUCUMBER = registerItem("cucumber", new Item(new FabricItemSettings().food(ModFoodComponents.CUCUMBER)));
+    public static final Item FRACTAL_CUCUMBER = registerItem("fractal_cucumber", new Item(new FabricItemSettings().food(ModFoodComponents.FRACTAL_CUCUMBER)));
     public static final Item BRONZE_CUCUMBER = registerItem("bronze_cucumber", new Item(new FabricItemSettings().food(ModFoodComponents.BRONZE_CUCUMBER)));
 
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new Item.Settings()));
