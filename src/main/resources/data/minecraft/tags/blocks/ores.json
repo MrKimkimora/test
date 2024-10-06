@@ -1,9 +1,8 @@
 {
   "replace": false,
   "values": [
-    "test:coke_block",
-    "test:tin_block",
-    "test:raw_tin_block",
+    "test:topaz_ore",
+    "test:deepslate_topaz_ore",
     "test:tin_ore",
     "test:deepslate_tin_ore"
   ]

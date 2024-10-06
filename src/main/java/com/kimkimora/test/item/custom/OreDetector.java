@@ -1,15 +1,23 @@
 package com.kimkimora.test.item.custom;
 
+import com.kimkimora.test.Test;
 import com.kimkimora.test.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class OreDetector extends Item {
     public OreDetector(Settings settings){
@@ -40,7 +48,7 @@ public class OreDetector extends Item {
                 }
             }
             if(!foundBlock){
-                player.sendMessage(Text.translatable("message.ore_detector.not_found"), false);
+                player.sendMessage(Text.translatable("message."+Test.MOD_ID+".ore_detector.not_found"), false);
             }
         }
         if(context.getPlayer() != null) {
@@ -50,9 +58,9 @@ public class OreDetector extends Item {
         return ActionResult.SUCCESS;
     }
 
-    private void outputValuable(BlockPos blockPos, PlayerEntity player, Block block) { //Руслан, подскажи, как оптимизировать чтобы не срать в lang.
+    private void outputValuable(BlockPos blockPos, PlayerEntity player, Block block) {
         player.sendMessage(Text.translatable(block.asItem().getTranslationKey())
-                .append(Text.translatable("message.ore_detector.found")), false);
+                .append(Text.translatable("message."+ Test.MOD_ID+".ore_detector.found")), false);
     }
 
     private boolean isValuableBlock(BlockState state){  // Говнокод п*здец, Руслан, помоги.
@@ -61,5 +69,11 @@ public class OreDetector extends Item {
                 || state.isOf(Blocks.GOLD_ORE) || state.isOf(Blocks.DIAMOND_ORE)
                 || state.isOf(Blocks.LAPIS_ORE) || state.isOf(Blocks.REDSTONE_ORE)
                 || state.isOf(Blocks.COAL_ORE) || state.isOf(Blocks.EMERALD_ORE);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip."+Test.MOD_ID+".ore_detector").formatted(Formatting.GRAY));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }

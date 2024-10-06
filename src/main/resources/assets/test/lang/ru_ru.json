@@ -26,10 +26,12 @@
   "block.test.coke_block": "Блок коксового угля",
 
   "item.test.rough_bronze_blend": "Грубая бронзовая смесь",
-  "item.test.ore_detector": "Инструмент поиска руды",
+  "item.test.ore_detector": "Набор для поиска руды",
 
-  "message.ore_detector.not_found": "Похоже, здесь ничего нет.",
-  "message.ore_detector.found": " прямо снизу!",
+  "message.test.ore_detector.not_found": "Похоже, здесь ничего нет.",
+  "message.test.ore_detector.found": " прямо снизу!",
+
+  "tooltip.test.ore_detector": "Благодаря промыванию верхних слоёв позволяет определить жилы глубоко под землёй.",
 
   "itemgroup.test_mod": "Test Mod"
 }

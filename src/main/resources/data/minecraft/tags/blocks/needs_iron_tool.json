@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "test:bronze_block",
     "test:topaz_block",
     "test:topaz_ore",
     "test:deepslate_topaz_ore"

@@ -28,9 +28,10 @@
   "item.test.rough_bronze_blend": "Rough Bronze Blend",
   "item.test.ore_detector": "Ore Detector",
 
-  "message.ore_detector.not_found": "Nothing here.",
-  "message.ore_detector.found": " right below!",
+  "message.test.ore_detector.not_found": "Nothing here.",
+  "message.test.ore_detector.found": " right below!",
 
+  "tooltip.test.ore_detector": "Can predict underground veins by washing upper layers.",
 
   "itemgroup.test_mod": "Test Mod"
 }
