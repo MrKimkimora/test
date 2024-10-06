@@ -1,6 +1,7 @@
 package com.kimkimora.test.block;
 
 import com.kimkimora.test.Test;
+import com.kimkimora.test.block.custom.CustomBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -18,6 +19,12 @@ public class ModBlocks {
     /*
       Создаём модовые блоки
      */
+
+    public static final Block CUSTOM_BLOCK = registerBlock("custom_block",
+            new CustomBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
+
+    public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
     public static final Block TIN_BLOCK = registerBlock("tin_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block",

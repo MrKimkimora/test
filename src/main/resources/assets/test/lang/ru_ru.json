@@ -1,17 +1,18 @@
 {
-  "item.test.copper_nugget": "Медный самородок",
+  "item.test.copper_nugget": "Кусочек меди",
 
-  "item.test.bronze_nugget": "Бронзовый самородок",
+  "item.test.bronze_nugget": "Кусочек бронзы",
   "item.test.bronze_ingot": "Бронзовый слиток",
+  "item.test.bronze_block": "Бронзовый блок",
 
   "item.test.topaz": "Топаз",
   "block.test.topaz_block": "Топазовый блок",
   "block.test.topaz_ore": "Топазовая руда",
   "block.test.deepslate_topaz_ore": "Топазоносный глубинный сланец",
 
-  "item.test.tin_nugget": "Оловянный самородок",
+  "item.test.tin_nugget": "Кусочек олова",
   "item.test.tin_ingot": "Оловянный слиток",
-  "block.test.tin_block": "Блок олова",
+  "block.test.tin_block": "Оловянный блок",
   "item.test.raw_tin": "Сырое олово",
   "block.test.raw_tin_block": "Блок сырого олова",
   "block.test.tin_ore": "Оловянная руда",

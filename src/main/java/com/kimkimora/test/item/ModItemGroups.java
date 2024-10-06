@@ -25,6 +25,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.BRONZE_NUGGET);
                         entries.add(ModItems.BRONZE_INGOT);
+                        entries.add(ModBlocks.BRONZE_BLOCK);
 
                         entries.add(ModBlocks.TOPAZ_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
@@ -41,6 +42,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.ROUGH_BRONZE_BLEND);
                         entries.add(ModItems.ORE_DETECTOR);
+
+                        entries.add(ModBlocks.CUSTOM_BLOCK);
 
                     }).build());
 
