@@ -22,6 +22,9 @@
   "block.test.tin_ore": "Оловянная руда",
   "block.test.deepslate_tin_ore": "Оловоносный глубинный сланец",
 
+  "item.test.coke": "Коксовый уголь",
+  "block.test.coke_block": "Блок коксового угля",
+
   "item.test.rough_bronze_blend": "Грубая бронзовая смесь",
   "item.test.ore_detector": "Инструмент поиска руды",
 

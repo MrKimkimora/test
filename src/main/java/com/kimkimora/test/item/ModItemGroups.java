@@ -44,6 +44,9 @@ public class ModItemGroups {
                         entries.add(ModItems.TIN_INGOT);
                         entries.add(ModBlocks.TIN_BLOCK);
 
+                        entries.add(ModItems.COKE);
+                        entries.add(ModBlocks.COKE_BLOCK);
+
                         entries.add(ModItems.ROUGH_BRONZE_BLEND);
                         entries.add(ModItems.ORE_DETECTOR);
 

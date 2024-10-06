@@ -26,6 +26,8 @@ public class ModItems {
     public static final Item TIN_NUGGET = registerItem("tin_nugget", new Item(new Item.Settings()));
     public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
 
+    public static final Item COKE = registerItem("coke", new Item(new Item.Settings()));
+
     public static final Item ROUGH_BRONZE_BLEND = registerItem("rough_bronze_blend", new Item(new Item.Settings()));
     public static final Item ORE_DETECTOR = registerItem("ore_detector", new OreDetector(new Item.Settings()
             .maxDamage(32)));

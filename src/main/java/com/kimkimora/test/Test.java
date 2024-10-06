@@ -1,6 +1,7 @@
 package com.kimkimora.test;
 
 import com.kimkimora.test.block.ModBlocks;
+import com.kimkimora.test.item.ModFuelItems;
 import com.kimkimora.test.item.ModItemGroups;
 import com.kimkimora.test.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -27,6 +28,8 @@ public class Test implements ModInitializer {
 
         ModItems.register();
         ModBlocks.register();
+
+        ModFuelItems.register();
 
         LOGGER.info("AMOGUS");
 

@@ -23,6 +23,8 @@ public class ModBlocks {
     public static final Block CUSTOM_BLOCK = registerBlock("custom_block",
             new CustomBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
 
+    public static final Block COKE_BLOCK = registerBlock("coke_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.COAL_BLOCK)));
     public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
     public static final Block TIN_BLOCK = registerBlock("tin_block",

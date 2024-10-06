@@ -22,6 +22,9 @@
   "block.test.tin_ore": "Tin Ore",
   "block.test.deepslate_tin_ore": "Deepslate Tin Ore",
 
+  "item.test.coke": "Coke",
+  "block.test.coke_block": "Coke Block",
+
   "item.test.rough_bronze_blend": "Rough Bronze Blend",
   "item.test.ore_detector": "Ore Detector",
 
