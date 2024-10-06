@@ -2,6 +2,7 @@ package com.kimkimora.test.item;
 
 import com.kimkimora.test.Test;
 import com.kimkimora.test.item.custom.OreDetector;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -11,6 +12,9 @@ public class ModItems {
     /*
     Создаём модовые предметы
      */
+    public static final Item CUCUMBER = registerItem("cucumber", new Item(new FabricItemSettings().food(ModFoodComponents.CUCUMBER)));
+    public static final Item BRONZE_CUCUMBER = registerItem("bronze_cucumber", new Item(new FabricItemSettings().food(ModFoodComponents.BRONZE_CUCUMBER)));
+
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new Item.Settings()));
 
     public static final Item BRONZE_NUGGET = registerItem("bronze_nugget", new Item(new Item.Settings()));

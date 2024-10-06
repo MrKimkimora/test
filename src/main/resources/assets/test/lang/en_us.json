@@ -1,9 +1,12 @@
 {
+  "item.test.cucumber": "Cucumber",
+  "item.test.bronze_cucumber": "Bronze Cucumber",
+
   "item.test.copper_nugget": "Copper Nugget",
 
   "item.test.bronze_nugget": "Bronze Nugget",
   "item.test.bronze_ingot": "Bronze Ingot",
-  "item.test.bronze_block": "Bronze Block",
+  "block.test.bronze_block": "Bronze Block",
 
   "item.test.topaz": "Topaz",
   "block.test.topaz_block": "Block of Topaz",

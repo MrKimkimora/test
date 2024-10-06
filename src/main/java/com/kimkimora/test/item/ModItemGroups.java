@@ -21,6 +21,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.test_mod"))
                     .icon(() -> new ItemStack(ModItems.TOPAZ)).entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.CUCUMBER);
+                        entries.add(ModItems.BRONZE_CUCUMBER);
+
                         entries.add(ModItems.COPPER_NUGGET);
 
                         entries.add(ModItems.BRONZE_NUGGET);

@@ -1,9 +1,12 @@
 {
+  "item.test.cucumber": "Огурец",
+  "item.test.bronze_cucumber": "Бронзовый огурец",
+
   "item.test.copper_nugget": "Кусочек меди",
 
   "item.test.bronze_nugget": "Кусочек бронзы",
   "item.test.bronze_ingot": "Бронзовый слиток",
-  "item.test.bronze_block": "Бронзовый блок",
+  "block.test.bronze_block": "Бронзовый блок",
 
   "item.test.topaz": "Топаз",
   "block.test.topaz_block": "Топазовый блок",
