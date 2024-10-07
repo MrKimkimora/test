@@ -1,10 +1,9 @@
 package com.kimkimora.test.item.custom;
 
 import com.kimkimora.test.Test;
-import com.kimkimora.test.block.ModBlocks;
+import net.fabricmc.fabric.api.tag.convention.v1.ConventionalBlockTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -63,12 +62,8 @@ public class OreDetector extends Item {
                 .append(Text.translatable("message."+ Test.MOD_ID+".ore_detector.found")), false);
     }
 
-    private boolean isValuableBlock(BlockState state){  // Говнокод п*здец, Руслан, помоги.
-        return state.isOf(ModBlocks.TIN_ORE) || state.isOf(ModBlocks.TOPAZ_ORE)
-                || state.isOf(Blocks.COPPER_ORE) || state.isOf(Blocks.IRON_ORE)
-                || state.isOf(Blocks.GOLD_ORE) || state.isOf(Blocks.DIAMOND_ORE)
-                || state.isOf(Blocks.LAPIS_ORE) || state.isOf(Blocks.REDSTONE_ORE)
-                || state.isOf(Blocks.COAL_ORE) || state.isOf(Blocks.EMERALD_ORE);
+    private boolean isValuableBlock(BlockState state){
+        return state.isIn(ConventionalBlockTags.ORES);
     }
 
     @Override

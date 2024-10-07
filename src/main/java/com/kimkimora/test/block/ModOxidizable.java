@@ -6,7 +6,6 @@ import com.google.common.collect.ImmutableBiMap;
 import com.mojang.serialization.Codec;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.Degradable;
 import net.minecraft.util.StringIdentifiable;
 
@@ -68,7 +67,7 @@ public interface ModOxidizable extends Degradable<com.kimkimora.test.block.ModOx
         WEATHERED("weathered"),
         OXIDIZED("oxidized");
 
-        public static final Codec<net.minecraft.block.Oxidizable.OxidationLevel> CODEC = StringIdentifiable.createCodec(net.minecraft.block.Oxidizable.OxidationLevel::values);
+        public static final Codec<ModOxidizable.OxidationLevel> CODEC = StringIdentifiable.createCodec(ModOxidizable.OxidationLevel::values);
         private final String id;
 
         private OxidationLevel(String id) {

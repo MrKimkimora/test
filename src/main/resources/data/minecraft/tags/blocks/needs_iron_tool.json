@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "test:bronze_block",
+    "test:exposed_bronze",
+    "test:weathered_bronze",
+    "test:oxidized_bronze",
     "test:topaz_block",
     "test:topaz_ore",
     "test:deepslate_topaz_ore"

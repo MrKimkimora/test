@@ -7,7 +7,11 @@
 
   "item.test.bronze_nugget": "Bronze Nugget",
   "item.test.bronze_ingot": "Bronze Ingot",
-  "block.test.bronze_block": "Bronze Block",
+  "block.test.bronze_block": "Block of Bronze",
+  "block.test.exposed_bronze": "Exposed Bronze",
+  "block.test.weathered_bronze": "Weathered Bronze",
+  "block.test.oxidized_bronze": "Oxidized Bronze",
+
 
   "item.test.topaz": "Topaz",
   "block.test.topaz_block": "Block of Topaz",

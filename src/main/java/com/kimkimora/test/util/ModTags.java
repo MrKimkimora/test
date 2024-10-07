@@ -9,9 +9,14 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks{
+        public static final TagKey<Block> TIN_ORES = createTag("tin_ores");
+        public static final TagKey<Block> TOPAZ_ORES = createTag("topaz_ores");
 
 
         private static TagKey<Block> createTag(String name){
+            return TagKey.of(RegistryKeys.BLOCK, new Identifier("c", name));
+        }
+        private static TagKey<Block> createModTag(String name){
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(Test.MOD_ID, name));
         }
     }

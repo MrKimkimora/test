@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#test:tin_ores",
+      "required": false
+    },
+    {
+      "id": "#test:topaz_ores",
+      "required": false
+    }
+  ]
+}

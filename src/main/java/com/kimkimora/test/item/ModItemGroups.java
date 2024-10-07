@@ -30,6 +30,9 @@ public class ModItemGroups {
                         entries.add(ModItems.BRONZE_NUGGET);
                         entries.add(ModItems.BRONZE_INGOT);
                         entries.add(ModBlocks.BRONZE_BLOCK);
+                        entries.add(ModBlocks.EXPOSED_BRONZE);
+                        entries.add(ModBlocks.WEATHERED_BRONZE);
+                        entries.add(ModBlocks.OXIDIZED_BRONZE);
 
                         entries.add(ModBlocks.TOPAZ_ORE);
                         entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);

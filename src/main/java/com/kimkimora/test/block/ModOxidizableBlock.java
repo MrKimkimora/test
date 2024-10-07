@@ -8,9 +8,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 
 public class ModOxidizableBlock extends Block implements ModOxidizable {
-    public static final MapCodec<com.kimkimora.test.block.ModOxidizableBlock> CODEC = RecordCodecBuilder.mapCodec(
-            instance -> instance.group(ModOxidizable.OxidationLevel.CODEC.fieldOf("weathering_state").forGetter(this::getDegradationLevel), createSettingsCodec())
-                    .apply(instance, com.kimkimora.test.block.ModOxidizableBlock::new)
+    public static final MapCodec<ModOxidizableBlock> CODEC = RecordCodecBuilder.mapCodec(
+            instance -> instance.group(ModOxidizable.OxidationLevel.CODEC.fieldOf("weathering_state").forGetter(Degradable::getDegradationLevel), createSettingsCodec())
+                    .apply(instance, ModOxidizableBlock::new)
     );
     private final ModOxidizable.OxidationLevel oxidationLevel;
 
@@ -31,7 +31,7 @@ public class ModOxidizableBlock extends Block implements ModOxidizable {
 
     @Override
     public boolean hasRandomTicks(BlockState state) {
-        return Oxidizable.getIncreasedOxidationBlock(state.getBlock()).isPresent();
+        return ModOxidizable.getIncreasedOxidationBlock(state.getBlock()).isPresent();
     }
 
     public ModOxidizable.OxidationLevel getDegradationLevel() {

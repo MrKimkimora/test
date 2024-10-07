@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "test:bronze_block",
+    "test:exposed_bronze",
+    "test:weathered_bronze",
+    "test:oxidized_bronze",
+    "test:coke_block",
     "test:tin_block",
     "test:raw_tin_block",
     "test:topaz_block",
