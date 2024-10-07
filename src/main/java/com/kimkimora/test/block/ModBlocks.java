@@ -3,9 +3,7 @@ package com.kimkimora.test.block;
 import com.kimkimora.test.Test;
 import com.kimkimora.test.block.custom.CustomBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -25,8 +23,16 @@ public class ModBlocks {
 
     public static final Block COKE_BLOCK = registerBlock("coke_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COAL_BLOCK)));
+
     public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
+            new ModOxidizableBlock(ModOxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK)));
+    public static final Block EXPOSED_BRONZE = registerBlock("exposed_bronze",
+            new ModOxidizableBlock(ModOxidizable.OxidationLevel.EXPOSED, FabricBlockSettings.copyOf(BRONZE_BLOCK)));
+    public static final Block WEATHERED_BRONZE = registerBlock("weathered_bronze",
+            new ModOxidizableBlock(ModOxidizable.OxidationLevel.WEATHERED, FabricBlockSettings.copyOf(BRONZE_BLOCK)));
+    public static final Block OXIDIZED_BRONZE = registerBlock("oxidized_bronze",
+            new ModOxidizableBlock(ModOxidizable.OxidationLevel.OXIDIZED, FabricBlockSettings.copyOf(BRONZE_BLOCK)));
+
     public static final Block TIN_BLOCK = registerBlock("tin_block",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block",
