@@ -2,11 +2,11 @@
   "replace": false,
   "values": [
     {
-      "id": "#test:tin_ores",
+      "id": "#c:ores/tin_ores",
       "required": false
     },
     {
-      "id": "#test:topaz_ores",
+      "id": "#c:ores/topaz_ores",
       "required": false
     }
   ]
