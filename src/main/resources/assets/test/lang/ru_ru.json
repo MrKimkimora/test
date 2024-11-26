@@ -1,0 +1,41 @@
+{
+  "item.test.cucumber": "Огурец",
+  "item.test.fractal_cucumber": "Фрактал кукумбер",
+  "item.test.bronze_cucumber": "Бронзовый огурец",
+
+  "item.test.copper_nugget": "Кусочек меди",
+
+  "item.test.bronze_nugget": "Кусочек бронзы",
+  "item.test.bronze_ingot": "Бронзовый слиток",
+  "block.test.bronze_block": "Бронзовый блок",
+  "block.test.exposed_bronze": "Потемневший бронзовый блок",
+  "block.test.weathered_bronze": "Состаренный бронзовый блок",
+  "block.test.oxidized_bronze": "Окисленный бронзовый блок",
+
+
+  "item.test.topaz": "Топаз",
+  "block.test.topaz_block": "Топазовый блок",
+  "block.test.topaz_ore": "Топазовая руда",
+  "block.test.deepslate_topaz_ore": "Топазоносный глубинный сланец",
+
+  "item.test.tin_nugget": "Кусочек олова",
+  "item.test.tin_ingot": "Оловянный слиток",
+  "block.test.tin_block": "Оловянный блок",
+  "item.test.raw_tin": "Сырое олово",
+  "block.test.raw_tin_block": "Блок сырого олова",
+  "block.test.tin_ore": "Оловянная руда",
+  "block.test.deepslate_tin_ore": "Оловоносный глубинный сланец",
+
+  "item.test.coke": "Коксовый уголь",
+  "block.test.coke_block": "Блок коксового угля",
+
+  "item.test.rough_bronze_blend": "Грубая бронзовая смесь",
+  "item.test.ore_detector": "Набор для поиска руды",
+
+  "message.test.ore_detector.not_found": "Похоже, здесь ничего нет.",
+  "message.test.ore_detector.found": " прямо снизу!",
+
+  "tooltip.test.ore_detector": "Благодаря промыванию верхних слоёв позволяет определить жилы глубоко под землёй.",
+
+  "itemgroup.test_mod": "Test Mod"
+}

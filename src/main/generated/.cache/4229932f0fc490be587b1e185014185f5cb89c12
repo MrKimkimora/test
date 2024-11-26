@@ -1,0 +1,11 @@
+// 1.20.4	2024-11-26T16:35:40.982334253	test/Tags for minecraft:block
+9d7ba9a8bf2f78a1e099223758032e53c14b1027 data/c/tags/blocks/topaz_ores.json
+9f649fd08f8e3d109d9aba3b71d16381ed4937f3 data/c/tags/blocks/tin_ores.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/fabric/tags/blocks/needs_tool_level_4.json
+3a28d86aa405e33c70daf90e3849e1bb0de3d9b1 data/minecraft/tags/blocks/mineable/pickaxe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/mineable/shovel.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/needs_diamond_tool.json
+4602a6ed5b6a6cdd39df3ee9fb271aa5a8b80c94 data/minecraft/tags/blocks/needs_stone_tool.json
+42818eb6fd0e3632b6876c146fe44ff4af9ae073 data/minecraft/tags/blocks/needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/mineable/hoe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data/minecraft/tags/blocks/mineable/axe.json

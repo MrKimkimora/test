@@ -1,0 +1,41 @@
+{
+  "item.test.cucumber": "Cucumber",
+  "item.test.fractal_cucumber": "Fractal Cucumber",
+  "item.test.bronze_cucumber": "Bronze Cucumber",
+
+  "item.test.copper_nugget": "Copper Nugget",
+
+  "item.test.bronze_nugget": "Bronze Nugget",
+  "item.test.bronze_ingot": "Bronze Ingot",
+  "block.test.bronze_block": "Block of Bronze",
+  "block.test.exposed_bronze": "Exposed Bronze",
+  "block.test.weathered_bronze": "Weathered Bronze",
+  "block.test.oxidized_bronze": "Oxidized Bronze",
+
+
+  "item.test.topaz": "Topaz",
+  "block.test.topaz_block": "Block of Topaz",
+  "block.test.topaz_ore": "Topaz Ore",
+  "block.test.deepslate_topaz_ore": "Deepslate Topaz Ore",
+
+  "item.test.tin_nugget": "Tin Nugget",
+  "item.test.tin_ingot": "Tin Ingot",
+  "block.test.tin_block": "Block of Tin",
+  "item.test.raw_tin": "Raw Tin",
+  "block.test.raw_tin_block": "Block of Raw Tin",
+  "block.test.tin_ore": "Tin Ore",
+  "block.test.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "item.test.coke": "Coke",
+  "block.test.coke_block": "Coke Block",
+
+  "item.test.rough_bronze_blend": "Rough Bronze Blend",
+  "item.test.ore_detector": "Ore Detector",
+
+  "message.test.ore_detector.not_found": "Nothing here.",
+  "message.test.ore_detector.found": " right below!",
+
+  "tooltip.test.ore_detector": "Can predict underground veins by washing upper layers.",
+
+  "itemgroup.test_mod": "Test Mod"
+}

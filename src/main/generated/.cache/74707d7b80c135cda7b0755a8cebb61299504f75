@@ -1,0 +1,13 @@
+// 1.20.4	2024-11-26T16:35:40.982178635	test/Block Loot Tables
+af5093e8900d23e46d6408f7719bf1c19c3c424f data/test/loot_tables/blocks/bronze_block.json
+dba9dcbb41f1ecae8efea358d308e89bb9279615 data/test/loot_tables/blocks/deepslate_tin_ore.json
+400151ffc26d214e1c7f007702ceaa193a668b20 data/test/loot_tables/blocks/tin_block.json
+032f5cd01c475dac147f280fa9e194005ce85a74 data/test/loot_tables/blocks/topaz_ore.json
+751a821e8f1f2426aba38c2764bb7f9c4bdc92fe data/test/loot_tables/blocks/coke_block.json
+211737306ac7c20cdab64a614bb7202a3e8038e5 data/test/loot_tables/blocks/oxidized_bronze.json
+5cfaa6d9ce00c08d5402a34bddbdefd5e3bae3c7 data/test/loot_tables/blocks/exposed_bronze.json
+30638cd0ddd9f1425a527f631258531466d4e4e0 data/test/loot_tables/blocks/raw_tin_block.json
+4fa52b2812527d3b1a9d0b7c16842760558a7e7a data/test/loot_tables/blocks/tin_ore.json
+a000aaab0c073d36595656dce99b7043194e86ba data/test/loot_tables/blocks/deepslate_topaz_ore.json
+61fec98ecf5ca6539643736bf26b9a528802c9c9 data/test/loot_tables/blocks/weathered_bronze.json
+877439bfb37601c5f1414f66d3621d99fec409aa data/test/loot_tables/blocks/topaz_block.json

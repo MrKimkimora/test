@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bronze_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:bronze_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cucumber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:cucumber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bronze_cucumber"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cucumber",
+      "has_bronze_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bronze_cucumber"
+    ]
+  }
+}

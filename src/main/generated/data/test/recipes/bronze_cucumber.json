@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "test:bronze_ingot"
+    },
+    "C": {
+      "item": "test:cucumber"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BCB",
+    "BBB"
+  ],
+  "result": {
+    "item": "test:bronze_cucumber"
+  }
+}
