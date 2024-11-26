@@ -1,4 +1,4 @@
-// 1.20.4	2024-11-26T16:35:40.982178635	test/Block Loot Tables
+// 1.20.4	2024-11-26T17:45:51.490429561	test/Block Loot Tables
 af5093e8900d23e46d6408f7719bf1c19c3c424f data/test/loot_tables/blocks/bronze_block.json
 dba9dcbb41f1ecae8efea358d308e89bb9279615 data/test/loot_tables/blocks/deepslate_tin_ore.json
 400151ffc26d214e1c7f007702ceaa193a668b20 data/test/loot_tables/blocks/tin_block.json

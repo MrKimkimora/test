@@ -75,5 +75,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
         ;
+
+
+
+        getOrCreateTagBuilder(ConventionalBlockTags.ORES) //                          Ore Tag
+                .addTag(ModTags.Blocks.TIN_ORES)
+                .addTag(ModTags.Blocks.TOPAZ_ORES)
+        ;
     }
 }
